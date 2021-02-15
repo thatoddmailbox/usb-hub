@@ -5,7 +5,7 @@ You can choose whether it's bus powered or externally powered with JP1. Solderin
 
 Note that an external 12 MHz crystal is provided for the SL2.1A. The datasheet claims that the chip also has an internal 12 MHz oscillator that you can use by connecting XIN (pin 16 of the SL2.1) to ground. It's recommended to use the external one, though, as it's more stable. (see the red Chinese text on page 5 of the datasheet)
 
-The port closest to the upstream miniUSB port is port number 1, and the rest of the ports are numbered 2 through 4.
+The port closest to the upstream mini-USB port is port number 1, and the remaining ports are numbered 2 through 4.
 
 ## Assembly
 This board is fairly easy to assemble with a soldering iron, flux, and solder wick. The main thing to watch out for is that the two sets of electrolytic capacitors, near the output ports, have opposite polarities. The silkscreen has the positive side labeled, so you should make sure the negative side of the capacitor (with the black stripe) is opposite of the positive side (as labeled by a plus on the board).
